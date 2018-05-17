@@ -1,0 +1,9 @@
+Building CryptoSourceCoin
+
+See doc/readme-qt.rst for instructions on building CryptoSourceCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of CryptoSourceCoin.
+
+See doc/build-*.txt for instructions on building cryptosourcecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of CryptoSourceCoin.

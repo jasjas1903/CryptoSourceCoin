@@ -1,0 +1,34 @@
+src/*.exe
+src/cryptosourcecoin
+src/cryptosourcecoind
+src/test_cryptosourcecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.cryptosourcecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+cryptosourcecoin-qt
+CryptoSourceCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+cryptosourcecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
